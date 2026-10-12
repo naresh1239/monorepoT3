@@ -1,0 +1,59 @@
+.pcard {
+  width: 280px;
+  background: var(--pc-bg, #161b26);
+  color: var(--pc-text, #c9d1d9);
+  border: 1px solid var(--pc-border, #262d3d);
+  border-radius: 12px;
+  overflow: hidden;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.pcard-bar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 14px;
+  background: var(--pc-bar, #1b2130);
+  border-bottom: 1px solid var(--pc-border, #262d3d);
+}
+
+.pcard-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #3a4256;
+}
+
+.pcard-title {
+  margin-left: 8px;
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.pcard-body {
+  padding: 16px;
+}
+
+.pcard-body p {
+  margin: 0;
+}
+
+.pcard-out {
+  margin-bottom: 12px !important;
+  padding-left: 16px;
+  overflow-wrap: anywhere;
+}
+
+.pcard-prompt {
+  color: var(--pc-green, #4ade80);
+}
+
+.pcard-cmd {
+  color: #fff;
+}
+
+.pcard a {
+  color: var(--pc-blue, #60a5fa);
+}
